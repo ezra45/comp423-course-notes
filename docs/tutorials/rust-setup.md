@@ -168,21 +168,19 @@ Congratulations on making it this far! We will now create our first program in R
 (1) Open a new terminal in VSCode and run this command:
 
 ```shell
-cargo new rust-tutorial --bin --vcs none
+cargo new . --bin --vcs none
 ```
 
 !!! info
     What does this mean?
 
-    The command ```cargo new rust-tutorial --bin --vcs none``` creates a new Rust project using the Cargo package manager. ```rust-tutorial``` is the name of the project you are creating. The ```--bin``` flag specifies that the project being created is a binary crate, which means it will compile into an executable program. The ```--vcs none``` flag disables version control system (VCS) initialization.
+    The command ```cargo new . --bin --vcs none``` creates a new Rust project using the Cargo package manager. ```.``` refers to the name of the current directory, which is the one that the project will go in. The ```--bin``` flag specifies that the project being created is a binary crate, which means it will compile into an executable program. The ```--vcs none``` flag disables version control system (VCS) initialization.
 
-(2) Run ```cd rust-tutorial``` in the terminal.
-
-(3) Navigate to the ```main.rs``` file (```rust-tutorial``` folder > ```src``` folder > ```main.rs```).
+(2) Navigate to the ```main.rs``` file (```rust-tutorial``` folder > ```src``` folder > ```main.rs```).
 
 You will notice the file already has some prewritten code in it. This is a simple function that prints **"Hello, World!"** to standard output.
 
-(4) Simply change the text within the ```println!();``` function to ```"Hello COMP423"```, save the file, and you're done with this part!
+(3) Simply change the text within the ```println!();``` function to ```"Hello COMP423"```, save the file, and you're done with this part!
 
 ### Step 2: Compiling and running the program
 
