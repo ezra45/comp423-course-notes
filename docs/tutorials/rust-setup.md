@@ -2,7 +2,7 @@
 
 * Primary author: [Ezra Heinberg](https://github.com/ezra45)
 
-* Reviewer: Lixin Yang (https://github.com/lixiny1)
+* Reviewer: [Lixin Yang](https://github.com/lixiny1)
 
 !!! note
 
@@ -39,7 +39,7 @@ cd rust-tutorial
 git init
 ```
 
-(4) Create a ==README== file:
+(4) Create a README file:
 
 ```shell
 echo "# Basic Program in Rust" > README.md
@@ -70,8 +70,6 @@ git remote add origin https://github.com/<your-username>/rust-tutorial.git
 Replace ```<your-username>``` with your GitHub username.
 
 (2) Check your default branch name with the subcommand ```git branch```. If it's not ```main```, rename it to ```main``` with the following command: ```git branch -M main```.
-
-//-m instead of -M (small issue!)
 
 (3) Push your local commits to the GitHub repo:
 
@@ -163,7 +161,7 @@ We are going to add some things to the file.
 
 ## Part 3: Your first Rust program
 
-Congratulations on making it this far! We will now create our first program in Rust.
+Congratulations on making it this far! You will now create your first program in Rust.
 
 ### Step 1: Create a ```main.rs``` file
 
@@ -178,7 +176,7 @@ cargo new . --bin --vcs none
 
     The command ```cargo new . --bin --vcs none``` creates a new Rust project using the Cargo package manager. ```.``` refers to the name of the current directory, which is the one that the project will go in. The ```--bin``` flag specifies that the project being created is a binary crate, which means it will compile into an executable program. The ```--vcs none``` flag disables version control system (VCS) initialization.
 
-(2) Navigate to the ```main.rs``` file (```rust-tutorial``` folder > ```src``` folder > ```main.rs```).
+(2) Navigate to the ```main.rs``` file (```src``` folder > ```main.rs```).
 
 You will notice the file already has some prewritten code in it. This is a simple function that prints **"Hello, World!"** to standard output.
 
