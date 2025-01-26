@@ -169,15 +169,15 @@ Congratulations on making it this far! You will now create your first program in
 (1) Open a new terminal in VSCode and run this command:
 
 ```shell
-cargo new . --bin --vcs none
+cargo new rs-tutorial --bin --vcs none
 ```
 
 !!! info
     What does this mean?
 
-    The command ```cargo new . --bin --vcs none``` creates a new Rust project using the Cargo package manager. ```.``` refers to the name of the current directory, which is the one that the project will go in. The ```--bin``` flag specifies that the project being created is a binary crate, which means it will compile into an executable program. The ```--vcs none``` flag disables version control system (VCS) initialization.
+    The command ```cargo new rs-tutorial --bin --vcs none``` creates a new Rust project using the Cargo package manager. ```rs-tutorial``` is the name of the directory your ```main.rs``` file will be placed in. The ```--bin``` flag specifies that the project being created is a binary crate, which means it will compile into an executable program. The ```--vcs none``` flag disables version control system (VCS) initialization.
 
-(2) Navigate to the ```main.rs``` file (```src``` folder > ```main.rs```).
+(2) Navigate to the ```main.rs``` file (```rs-tutorial``` folder > ```src``` folder > ```main.rs```).
 
 You will notice the file already has some prewritten code in it. This is a simple function that prints **"Hello, World!"** to standard output.
 
@@ -185,7 +185,7 @@ You will notice the file already has some prewritten code in it. This is a simpl
 
 ### Step 2: Compiling and running the program
 
-Now that your program is ready to be run, we will look at two different ways of accomplishing that. 
+Now that your program is ready to be run, we will look at two different ways of accomplishing that. To start, run ```cd rs-tutorial```. 
 
 #### (1) The ```cargo build``` command
 
@@ -200,11 +200,10 @@ To try it out, run ```cargo build``` in your terminal in VSCode.
 You will see output that looks like this: 
 
 ```shell
-Compiling rust-tutorial v0.1.0 (/workspaces/rust-tutorial/rust-tutorial)
-    Finished `dev` profile [unoptimized + debuginfo] target(s) in 1.83s
+Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.01s
 ```
 
-To run it, type this command: ```./target/debug/rust-tutorial```.
+To run it, type this command: ```./target/debug/rs-tutorial```.
 
 #### (2) The ```cargo run``` command
 
