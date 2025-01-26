@@ -2,13 +2,13 @@
 
 * Primary author: [Ezra Heinberg](https://github.com/ezra45)
 
-* Reviewer: [Lixin Yang] (https://github.com/lixiny1)
+* Reviewer: Lixin Yang (https://github.com/lixiny1)
 
 !!! note
 
     Certain steps in this tutorial will be directly quoted from the [COMP 423 MkDocs tutorial page](https://comp423-25s.github.io/resources/MkDocs/tutorial/)
 
-Hello and welcome! This tutorial will teach you how to set up a basic Rust project in a development container. Just follow along with the steps, and enjoy the process!
+==Hello and welcome!== This tutorial will teach you how to set up a basic Rust project in a development container. Just follow along with the steps, and enjoy the process!
 
 ## Prerequisites
 
@@ -39,7 +39,7 @@ cd rust-tutorial
 git init
 ```
 
-(4) Create a README file:
+(4) Create a ==README== file:
 
 ```shell
 echo "# Basic Program in Rust" > README.md
@@ -70,6 +70,8 @@ git remote add origin https://github.com/<your-username>/rust-tutorial.git
 Replace ```<your-username>``` with your GitHub username.
 
 (2) Check your default branch name with the subcommand ```git branch```. If it's not ```main```, rename it to ```main``` with the following command: ```git branch -M main```.
+
+//-m instead of -M (small issue!)
 
 (3) Push your local commits to the GitHub repo:
 
