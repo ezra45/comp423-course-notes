@@ -213,4 +213,14 @@ This is equivalent to running ```gcc``` to compile a program and subsequently ru
 
 To try it out, run ```cargo run``` in your terminal in VSCode.
 
+## Part 4: Pushing Your Work to GitHub
+
+If you wish to push your work to GitHub, run these commands in the terminal:
+
+```shell
+git add .
+git commit -m "Hello COMP423 in Rust"
+git push -u origin main
+```
+
 **Congratulations on finishing this tutorial! You should now have a familiarity with some important coding concepts.**
