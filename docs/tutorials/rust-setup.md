@@ -154,6 +154,7 @@ We are going to add some things to the file.
 	}
 }
 ```
+(Make sure you add a comma on the ```"image"``` line of the file!)
 
 (2) Uncomment out the line that says ```"postCreateCommand": "rustc --version",```
 
