@@ -2,7 +2,7 @@
 
 * Primary author: [Ezra Heinberg](https://github.com/ezra45)
 
-hello! - lixin
+* Reviewer: [Lixin Yang] (https://github.com/lixiny1)
 
 !!! note
 
