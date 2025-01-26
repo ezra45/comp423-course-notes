@@ -2,13 +2,13 @@
 
 * Primary author: [Ezra Heinberg](https://github.com/ezra45)
 
-hello! - lixin
+* Reviewer: [Lixin Yang](https://github.com/lixiny1)
 
 !!! note
 
     Certain steps in this tutorial will be directly quoted from the [COMP 423 MkDocs tutorial page](https://comp423-25s.github.io/resources/MkDocs/tutorial/)
 
-Hello and welcome! This tutorial will teach you how to set up a basic Rust project in a development container. Just follow along with the steps, and enjoy the process!
+==Hello and welcome!== This tutorial will teach you how to set up a basic Rust project in a development container. Just follow along with the steps, and enjoy the process!
 
 ## Prerequisites
 
@@ -161,7 +161,7 @@ We are going to add some things to the file.
 
 ## Part 3: Your first Rust program
 
-Congratulations on making it this far! We will now create our first program in Rust.
+Congratulations on making it this far! You will now create your first program in Rust.
 
 ### Step 1: Create a ```main.rs``` file
 
@@ -176,7 +176,7 @@ cargo new . --bin --vcs none
 
     The command ```cargo new . --bin --vcs none``` creates a new Rust project using the Cargo package manager. ```.``` refers to the name of the current directory, which is the one that the project will go in. The ```--bin``` flag specifies that the project being created is a binary crate, which means it will compile into an executable program. The ```--vcs none``` flag disables version control system (VCS) initialization.
 
-(2) Navigate to the ```main.rs``` file (```rust-tutorial``` folder > ```src``` folder > ```main.rs```).
+(2) Navigate to the ```main.rs``` file (```src``` folder > ```main.rs```).
 
 You will notice the file already has some prewritten code in it. This is a simple function that prints **"Hello, World!"** to standard output.
 
