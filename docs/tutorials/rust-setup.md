@@ -28,20 +28,20 @@ Before you start, be sure you have:
 
 (2) Create a new directory for your project.
 
-``` shell
+``` shell {.copy}
 mkdir rust-tutorial
 cd rust-tutorial
 ```
 
 (3) Initialize a new Git repository:
 
-```shell
+```shell {.copy}
 git init
 ```
 
 (4) Create a README file:
 
-```shell
+```shell {.copy}
 echo "# Basic Program in Rust" > README.md
 git add README.md
 git commit -m "Initial commit with README"
@@ -64,7 +64,7 @@ git commit -m "Initial commit with README"
 ### Step 3. Link your Local Repository to GitHub
 (1) Add the GitHub repository as a remote:
 
-```shell
+```shell {.copy}
 git remote add origin https://github.com/<your-username>/rust-tutorial.git
 ```
 Replace ```<your-username>``` with your GitHub username.
@@ -73,7 +73,7 @@ Replace ```<your-username>``` with your GitHub username.
 
 (3) Push your local commits to the GitHub repo:
 
-```shell
+```shell {.copy}
 git push --set-upstream origin main
 ```
 !!! info
@@ -107,7 +107,7 @@ A development container is useful to ensure that your development environment is
 
 When you create the ```.json``` file, it should look like this: 
 
-```json
+```json {.copy}
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the
 // README at: https://github.com/devcontainers/templates/tree/main/src/rust
 {
@@ -145,7 +145,7 @@ We are going to add some things to the file.
 
 (1) Uncomment out the ```customizations``` section and edit it to look like this: 
 
-```json
+```json {.copy}
 "customizations": {
 	"vscode": {
 		"extensions": [
@@ -168,7 +168,7 @@ Congratulations on making it this far! You will now create your first program in
 
 (1) Open a new terminal in VSCode and run this command:
 
-```shell
+```shell {.copy}
 cargo new rs-tutorial --bin --vcs none
 ```
 
@@ -217,7 +217,7 @@ To try it out, run ```cargo run``` in your terminal in VSCode.
 
 If you wish to push your work to GitHub, run these commands in the terminal:
 
-```shell
+```shell {.copy}
 git add .
 git commit -m "Hello COMP423 in Rust"
 git push -u origin main
