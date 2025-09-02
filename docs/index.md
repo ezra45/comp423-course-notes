@@ -1,3 +1,3 @@
-# Welcome to Ezra Heinberg's Course Notes
+# Welcome to Ezra Heinberg's COMP 423 Course Notes!
 
-This is my home page. I will use it to organize and share my course notes.
+This is my home page. Go check out the Rust tutorial!
