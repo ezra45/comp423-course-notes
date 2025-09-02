@@ -6,7 +6,7 @@
 
 !!! note
 
-    Certain steps in this tutorial will be directly quoted from the [COMP 423 MkDocs tutorial page](https://comp423-25s.github.io/resources/MkDocs/tutorial/)
+    Certain steps in this tutorial will be quoted and/or paraphrased from the [COMP 423 MkDocs tutorial page](https://comp423-25s.github.io/resources/MkDocs/tutorial/)
 
 ==Hello and welcome!== This tutorial will teach you how to set up a basic Rust project in a development container. Just follow along with the steps, and enjoy the process!
 
@@ -14,10 +14,10 @@
 
 Before you start, be sure you have:
 
-1. **An account on GitHub:** If not, sign up for one on [GitHub](https://github.com/)
-2. **Git installed:** You can install it [here](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
-3. **VSCode installed:** Download [here](https://code.visualstudio.com/)
-4. **Docker installed:** Install it [here](https://www.docker.com/products/docker-desktop/)
+1. **An account on GitHub:** If not, sign up for one on [GitHub](https://github.com/).
+2. **Git installed:** You can install it [here](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
+3. **VSCode installed:** Download [here](https://code.visualstudio.com/).
+4. **Docker installed:** Install it [here](https://www.docker.com/products/docker-desktop/).
 5. **A general familiarity with the command line:** This will be helpful as you navigate this tutorial.
 
 ## Part 1: Creating the Repository
