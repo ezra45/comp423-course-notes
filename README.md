@@ -1,4 +1,4 @@
-# COMP423 course notes
+# MkDocs site and Rust tutorial
 
 This project was completed in COMP 423. A classmate and I worked together to create and review each other's tutorials on setting up basic programs in Rust and Go. I made the tutorial on Rust, and Lixin made the tutorial on Go. Below the links are a list of some skills I gained through the design, deployment, and collaboration process.
 
