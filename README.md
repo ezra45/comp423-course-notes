@@ -39,7 +39,7 @@ Link to Lixin's Go tutorial: https://lixiny1.github.io/comp423-course-notes/tuto
 - **Cross-referencing**: Linking to external resources and related content
 
 ### Version Control & Git
-Repository initialization, commits, branching, creating remote repositories, linking local repos, adding, committing and pushing changes, and working with main branch and upstream tracking.
+Repository initialization, commits, branching, creating remote repositories, linking local repos, adding/committing/pushing changes, and working with main branch and upstream tracking.
 
 ### Command Line & Terminal
 Directory creation, navigation, file operations, using command line for project management, creating, editing, and managing project files.
